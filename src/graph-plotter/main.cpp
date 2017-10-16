@@ -63,6 +63,9 @@ int main()
     Range range_abs{-4, 7};
     graph.plot(generateDataPoints(abs_poly_function, range_abs), dot_red);
 
+    // More graphs i.e log graphs adding onto the excisting design
+    // axis can be drawn using straight lines. This can be done ploting the polynomial with solid lines. 
+    // The axis would be mmade up of two graphs and a third graph would be plotted to reporesent the curve 
     return 0;
 }
 
