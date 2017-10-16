@@ -66,6 +66,9 @@ int main()
     // More graphs i.e log graphs adding onto the excisting design
     // axis can be drawn using straight lines. This can be done ploting the polynomial with solid lines. 
     // The axis would be mmade up of two graphs and a third graph would be plotted to reporesent the curve 
+    
+    // Th clear() function is called every time the the plot is called.
+    // This function should be implemented separtly to allow for thr graphs to be drawn overlapping
     return 0;
 }
 
