@@ -11,7 +11,8 @@ public:
 	DataPoints generateSamples(const Sinusoid& sine_wave, const Range& range) const;
 
 private:
-	static const int TOTAL_POINTS = 50;
+// Sampling rate was to low, The plotter uses computational methods to plot graphs
+	static const int TOTAL_POINTS = 10000;
 };
 
 // standalone function for generating data points, a default uniform sampler is provided
