@@ -12,7 +12,7 @@ public:
 
 private:
 // Sampling rate was to low, The plotter uses computational methods to plot graphs
-	static const int TOTAL_POINTS = 10000;
+	static const int TOTAL_POINTS = 500;
 };
 
 // standalone function for generating data points, a default uniform sampler is provided
