@@ -1,7 +1,9 @@
 #ifndef SINUSOID_H
 #define SINUSOID_H
 
-class Sinusoid
+#include "Function.h"
+
+class Sinusoid : public Function
 {
 public:
 	Sinusoid(float amplitude=1.0, float frequency = 1.0, float phase=0.0):
